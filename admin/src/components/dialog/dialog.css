@@ -1,0 +1,36 @@
+.dialog{
+    width: 400px;
+    height: 130px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    color: #000;
+    border: 1px solid #000;
+    
+}
+.dialog.center {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+ 
+.alert{
+    text-align: center;
+    color: #6439ff;
+    background-color: #D3D3D3;
+    border-radius: 4px 4px 0px 0px;
+    
+}
+.content{
+    margin: 8px;
+    font-size: 20px;
+}
+.btn-ok{
+    margin-right: 10px;
+    line-height: 26px;
+    width: 70px;
+    background-color: #FFAF61;
+    color: #FFF;
+    border-radius: 4px;
+    margin: 16px 0px 2px 160px;
+}
